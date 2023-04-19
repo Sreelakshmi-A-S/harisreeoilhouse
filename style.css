@@ -1,0 +1,175 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header Styles */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Main Styles */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#hero {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 80px;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#services {
+  padding: 40px;
+  background-color: #fff;
+}
+
+#services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#services ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#services ul li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+#services ul li h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#services ul li p {
+  font-size: 16px;
+}
+
+#about {
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+#contact {
+  padding: 40px;
+  background-color: #fff;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+  padding: 20px;
+  background
